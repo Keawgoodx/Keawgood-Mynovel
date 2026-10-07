@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+venv/
+
+# ===== ข้อมูลส่วนตัว — ห้ามขึ้น GitHub เด็ดขาด =====
+# automation_profile เก็บคุกกี้/การล็อกอิน MyNovel ของคุณ
+automation_profile/
+config.json
+config_v1_backup.json
+github_token.txt
+*.tmp
+logs/
+
+# ไฟล์เวอร์ชันเก่า
+inkxmynovel_*.py
+inkxmynovel_*.txt
+inkxmynovel_pyqt_settings.json
+
+# Build output
+_github/
+.github/
+build/
+dist/
+*.spec
+*.zip
+# รูปต้นฉบับขนาดใหญ่ (โปรแกรมใช้ assets/icon.*)
+/Keawgood_Mynovel.png
+*.rar
+*.7z
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
